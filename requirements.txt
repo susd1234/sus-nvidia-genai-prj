@@ -1,0 +1,9 @@
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+langchain>=0.1.0
+langchain-nvidia-ai-endpoints>=0.0.1
+langgraph>=0.0.15
+python-dotenv>=1.0.0
+pillow>=10.0.0
+requests>=2.31.0

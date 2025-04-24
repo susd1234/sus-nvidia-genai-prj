@@ -1,0 +1,18 @@
+[project]
+name = "sus-nvidia-genai-prj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-nvidia-ai-endpoints>=0.0.1",
+    "langgraph>=0.0.15",
+    "pandas>=2.2.3",
+    "pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "torch==2.2.2",
+    "torchaudio==2.2.2",
+    "torchvision==0.17.2",
+]
