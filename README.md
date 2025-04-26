@@ -9,6 +9,16 @@ This project implements a human-in-the-loop AI agent system using NVIDIA's tech 
 - Human-in-the-loop workflow: Allows human approval/rejection of generated content
 - Modular architecture: Easy to extend and modify
 
+## Technical Stack
+
+| Component | Technology/Tool |
+|-----------|----------------|
+| Models | - Content Creation: meta/llama-3.1-405b-instruct<br>- Digital Artist: mistralai/mixtral-8x7b-instruct-v0.1<br>- Image Generation: stabilityai/stable-diffusion-3-medium |
+| Framework | - LangChain<br>- LangGraph<br>- NVIDIA NIM Microservice Endpoints |
+| Core Dependencies | - PyTorch 2.2.2<br>- Python 3.10+ |
+| Vector Database | Milvus (configured through NVIDIA AI Endpoints) |
+| Supported File Types | Images (output as JPG) |
+
 ## Prerequisites
 
 - Python 3.8+
