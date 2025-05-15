@@ -19,6 +19,10 @@ This project implements a human-in-the-loop AI agent system using NVIDIA's tech 
 | Vector Database | Milvus (configured through NVIDIA AI Endpoints) |
 | Supported File Types | Images (output as JPG) |
 
+## State Machine
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/d3d83a04-9470-4a1e-a056-d0ae695aa33b" />
+
+
 ## Prerequisites
 
 - Python 3.8+
